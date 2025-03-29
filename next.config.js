@@ -4,7 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/your-repo-name' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/blog-app' : '',
 }
 
 module.exports = nextConfig 
